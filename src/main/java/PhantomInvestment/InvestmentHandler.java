@@ -3,9 +3,10 @@ package PhantomInvestment;
 import org.devotionit.vantage.AlphaVantageClient;
 
 public class InvestmentHandler {
+    public static AlphaVantageClient client = null;
     public InvestmentHandler(String str)
     {
-        AlphaVantageClient client = new AlphaVantageClient(str);
+        client = new AlphaVantageClient(str);
     }
 
 }

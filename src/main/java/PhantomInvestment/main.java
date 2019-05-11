@@ -5,10 +5,11 @@ import org.devotionit.vantage.AlphaVantageClient;
 
 public final class main extends JavaPlugin {
     public AlphaVantageClient client;
+    public InvestmentHandler investmentHandler = null;
+
 
     @Override
     public void onEnable() {
-        InvestmentHandler investmentHandler;
         // Plugin startup logic
         investmentHandler = new InvestmentHandler("J70KI13721YUA8US");
         this.getCommand("invest").setExecutor(new CommandInvest());
