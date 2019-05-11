@@ -2,3 +2,8 @@ name: PhantomInvestment
 version: ${project.version}
 main: PhantomInvestment.main
 api-version: 1.13
+
+commands:
+  invest:
+    description: Used to invest
+    usage: /invest
