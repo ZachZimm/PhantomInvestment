@@ -1,0 +1,4 @@
+name: PhantomInvestment
+version: ${project.version}
+main: PhantomInvestment.main
+api-version: 1.13
